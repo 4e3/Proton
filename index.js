@@ -23,4 +23,4 @@ client.events = new Discord.Collection();
 
 
 
-client.login(process.env.DISCORD_TOKEN);
+client.login(process.env.TOKEN);
