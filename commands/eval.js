@@ -11,7 +11,7 @@ module.exports = {
 
     async execute(client, message, args, Discord){
 
-  if (!'572545821849944076'.includes(message.author.id)) {
+  if (!'YOUR DISCORD ID'.includes(message.author.id)) {
     message.delete()
     var evalnoEmbed = new Discord.MessageEmbed()
  .setColor('RED')
